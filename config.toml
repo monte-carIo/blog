@@ -1,6 +1,6 @@
 baseurl = "https://monte-cario.github.io/"
 metaDataFormat = "yaml"
-title = "Blist Multilingual Theme"
+title = "Monte-Carlo"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -11,33 +11,25 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! I'm Katheryn Fox"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
+      introTitle = "Hey! I'm Nguyen"
+      introSubtitle = "This blog is take note of what i've learned."
+      introPhoto = "/wall.jpg"
+      logo = "/fav_1.jpg"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
         weight = 1
 
     [[languages.en.menu.main]]
-        name = "About"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.en.menu.main]]
         name = "Tags"
         url = "tags"
         weight = 3
 
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
 
 [params]
+
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
   
   # Enable search in header
   enableSearch = true
@@ -57,13 +49,13 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
-  favicon = "/favicon.svg"
+  copyright = "Copyright © 2023 - Do Pham Khai Nguyen · All rights reserved"
+  favicon = "/fav_1.jpg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  ascentColor = "bg-gray-200"
 
   # The page bundle that is shown on the front page
   frontBundle = "blog"
@@ -111,62 +103,14 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  description = ""
 
   [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
-  [[params.homepage.social.icons]]
-    website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "xing"
-    url = "https://www.xing.com/profile/"
-  [[params.homepage.social.icons]]
-    website = "telegram"
-    url = "https://t.me/"
-  [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
-  [[params.homepage.social.icons]]
-    website = "tiktok"
-    url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
-  [[params.homepage.social.icons]]
-    website = "youtube"
-    url = "https://youtube.com"
-  [[params.homepage.social.icons]]
-    website = "instagram"
-    url = "https://instagram.com"
+    url = "https://github.com/monte-carIo"
   [[params.homepage.social.icons]]
     website = "facebook"
-    url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
+    url = "https://www.facebook.com/profile.php?id=100005815337178"
 
 [[menu.main]]
   name = "About"
